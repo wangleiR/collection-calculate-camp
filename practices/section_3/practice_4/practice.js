@@ -16,7 +16,7 @@ function create_updated_collection(collection_a, object_b) {
   });
 
   return ca.filter(item => {
-    if (object_b['value'].indexOf(item['key']) != -1)
+    if (object_b['value'].indexOf(item['key']) !== -1)
       item['count'] -= parseInt(item['count']/3);
     return item;
   })

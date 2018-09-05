@@ -1,6 +1,7 @@
 'use strict';
 var number_map_to_word_over_26 = function(collection){
   return collection.map(num =>  {
+    //many char
     let str = "";
     while(num%26 >= 1){
       if (num > 26)

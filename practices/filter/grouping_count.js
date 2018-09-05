@@ -2,9 +2,11 @@
 
 function grouping_count(collection) {
  //在这里写入代码
+
+  //refactor
   var object = new Object();
-  collection.forEach(index=>{
-    object[index] = collection.filter(n=> n===index).length;
+  collection.forEach(key=>{
+    object[key] = collection.filter(n=> n===key).length;
   });
   return object;
 }

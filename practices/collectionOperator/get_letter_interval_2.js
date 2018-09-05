@@ -29,7 +29,5 @@ function get_letter_interval_2(number_a, number_b) {
   return arr;
 }
 
-console.log(get_letter_interval_2(52, 53));
-
 module.exports = get_letter_interval_2;
 
